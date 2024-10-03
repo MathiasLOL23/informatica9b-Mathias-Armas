@@ -1,0 +1,10 @@
+algoritmo aporte
+definir numeros 10 como entero
+definir suma como entero
+suma <- 0 
+para i <-  1 hasta 10 hacer
+escribir " ingrese el numero " , i ,":"
+leer numeros i 
+suma <- suma + numerosi
+fin para 
+escribir " la suma de los numeros ingresados :",suma 

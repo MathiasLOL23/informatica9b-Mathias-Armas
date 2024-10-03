@@ -1,0 +1,27 @@
+Algoritmo informatica 
+	definir monto, tasa_de_interes,tiempo,interes_compuesto, capital_depositado, interes_simple Como Real
+	definir n como entero;
+	escribir sin saltar 'ingresa el valor de capital depositado';
+	leer capital_depositado;
+	escribir sin saltar 'ingresar el valor de tasa de interes';
+	leer taza_de_interes;
+	escribir sin saltar'ingresar valor de tiempo';
+	leer tiempo;
+	escribir sin saltar 'tipo de interes a calcular (1:simple)(2:compuesto)'
+	Segun N  Hacer
+		
+		opcion_1:
+			monto<-(100+tasa_de_interes/1)*tiempo;
+			interes_compuesto<-monto-capital_depositado;
+			escribir'valor de interes simple', interes_simple;
+			escribir 'valor de monto:',monto 
+		opcion_2:
+			monto<-(100+tasa_de_interes/1)*tiempo;
+			interes_compuesto<-monto-capital_depositado;
+			escribir'valor de interes simple', interes_simple;
+			escribir 'valor de monto:',monto 
+		De Otro Modo:
+	Fin Segun
+FinProceso
+
+	
